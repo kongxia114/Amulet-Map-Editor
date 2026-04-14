@@ -6,8 +6,7 @@
 > - I am **not affiliated** with the Amulet Team.
 > - Official version: [Amulet-Team/Amulet-Map-Editor](https://github.com/Amulet-Team/Amulet-Map-Editor)
 > - **No pre-built binaries provided** - please build yourself.
-> - **No support** will be provided for builds from this fork.
-
+> - For bug reports, feature requests, or technical support, please refer to the [official repository](https://github.com/Amulet-Team/Amulet-Map-Editor/issues).
 ![cover](resource/img/cover.jpg)
 
 ## Differences from Official Repo
