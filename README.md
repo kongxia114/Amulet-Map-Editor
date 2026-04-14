@@ -1,18 +1,33 @@
-# Amulet Map Editor
+# Amulet Map Editor (Personal Fork)
 
-![Build](../../workflows/Build/badge.svg)
-![Unittests](../../workflows/Unittests/badge.svg?event=push)
-![Stylecheck](../../workflows/Stylecheck/badge.svg?event=push)
-[![Documentation Status](https://readthedocs.org/projects/amulet-map-editor/badge)](https://amulet-map-editor.readthedocs.io)
-
-A Minecraft world editor and converter that supports all versions since Java 1.12 and Bedrock 1.7.
+> **⚠️ Disclaimer**
+>
+> This is a **personal fork** for learning purposes, not the official repository.
+> - I am **not affiliated** with the Amulet Team.
+> - Official version: [Amulet-Team/Amulet-Map-Editor](https://github.com/Amulet-Team/Amulet-Map-Editor)
+> - **No pre-built binaries provided** - please build yourself.
+> - **No support** will be provided for builds from this fork.
 
 ![cover](resource/img/cover.jpg)
 
-## Installing
+## Differences from Official Repo
 
-Purchase and download the installer for your operating system and architecture from [amuletmc.com](https://www.amuletmc.com).\
-Run the installer and follow the instructions.
+- Removed code signing (personal fork has no certificate)
+- Modified GitHub Actions to support manual triggering
+- For personal learning and research only
+
+## Build Yourself
+
+1. Go to `Actions` tab
+2. Select `Build Windows (Simplified)` workflow
+3. Click `Run workflow`
+4. Download the installer from `Artifacts`
+
+## About Amulet
+
+A Minecraft world editor and converter that supports all versions since Java 1.12 and Bedrock 1.7.
+
+Official repo: [Amulet-Team/Amulet-Map-Editor](https://github.com/Amulet-Team/Amulet-Map-Editor)
 
 ## Running from Source
 
@@ -21,13 +36,14 @@ Run the installer and follow the instructions.
 See instructions on [amuletmc.com](https://www.amuletmc.com/installing-from-source)
 
 ## Running with Docker (Linux)
+
 The Docker image runs on any Linux distro with Docker support.\
 To run the Docker image, clone this repository and run `rundocker.sh`.\
 Compatibility with wayland is done through xwayland for x11 support.
 
 ## Legacy builds
 
-Old versions (prior to 0.10.45) can be found on our [releases page](https://github.com/Amulet-Team/Amulet-Map-Editor/releases).
+Old versions (prior to 0.10.45) can be found on the [official releases page](https://github.com/Amulet-Team/Amulet-Map-Editor/releases).
 
 Extract the contained folder to a location on your computer and run `amulet_app.exe`.
 
